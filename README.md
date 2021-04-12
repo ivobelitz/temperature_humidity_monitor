@@ -1,11 +1,9 @@
 # Temperature and Humidity Montitor
 
-This project is used to measure the air temperature and relative humidity values and transmit that to a local network dashboard using MQTT. The measurements are also logged and added to a spreadsheet at regular intervals.
+This project allows the users to play games such as Pong and Mafia between each other in the same room. Its main goal is to serve as a party game to brighten up the mood.
 
 ## Software / hardware requirements
 
-The project uses an ESP32 development board connected to a SHT30 temperature and humidity sensor. It also uses Node-RED for the dashboard. 
+Each console consists of an ESP32 board connected to a SparkFun Qwiic Micro OLED Breakout Display and Qwiic Joystick. 
 
-## Usage
 
-After powering on the ESP, start the Node-RED client. The UI is available at http://localhost:1880/ui/
