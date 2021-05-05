@@ -1,9 +1,10 @@
 # Temperature and Humidity Montitor
 
-This project allows the users to play games such as Pong and Mafia between each other in the same room. Its main goal is to serve as a party game to brighten up the mood.
+A project used to measure temperature and humidity inside a room and display and log that information for future reference. 
+The sensor data is sent to a local Node-RED dashboard using MQTT and Node-RED handles visualizing the data and logging the measurements in .csv files. 
 
 ## Software / hardware requirements
 
-Each console consists of an ESP32 board connected to a SparkFun Qwiic Micro OLED Breakout Display and Qwiic Joystick. 
+The monitor consists of an ESP32 microcontrolled hooked up to a SHT30 sensor.
 
 
